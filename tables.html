@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table border="1">
+        <tr bgcolor="yellow">
+            <th>Roll No:</th>
+            <th>Name</th>
+            <th>Branch</th>
+            
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>PM</td>
+            <td>ECE</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>MP</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>MLA</td>
+            <td>EEE</td>
+        </tr>
+    </table>
+    <!--Rowspan demo-- Merging of rows and columns-->
+    <h1>Employee Information</h1>
+    <table border="2" cellpadding="15" cellspacing="10">
+        <tr bgcolor="blue"> 
+            <th>Employee Id:</th>
+            <th>Employee name</th>
+            <th colspan="2">Technologies</th>
+
+        </tr>
+        <tr>
+            <td>91989</td>
+            <td>Sudheer Singh</td>
+            <td align="center" colspan="2">Java</td>
+        </tr>
+        <tr>
+            <td>91988</td>
+            <td>Anand Mahindra</td>
+            <td align="center" colspan="2">Angular</td>
+        </tr>
+        <tr>
+            <td>91987</td>
+            <td>Sundar Pichai</td>
+            <td align="center">Java</td>
+            <td align="center">Node.JS</td>
+        </tr>
+        <tr>
+            <td>91986</td>
+            <td>Mark Zuckerberg</td>
+            <td align="center" colspan="2">HTML5</td>
+        </tr>
+        <tr>
+            <td>91985</td>
+            <td>Jonh Beffos</td>
+            <td align="center">Java</td>
+            <td align="center">Node.JS</td>
+        </tr>
+        <tr>
+            <td rowspan="2">91984</td>
+            <td rowspan="2">Elon Musk</td>
+            <td align="center" colspan="2">HTML5</td>
+        </tr>
+        <tr>
+            
+            <td align="center" colspan="2">JQuery</td>
+        </tr>
+
+    </table>
+    <p>********Thank You********</p>
+</body>
+</html>
